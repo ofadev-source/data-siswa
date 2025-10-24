@@ -25,7 +25,7 @@ export default function DaftarSiswa() {
   return (
     <div className="shadow-lg rounded-xl p-8">
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-3xl font-bold text-gray-800">Daftar Siswa</h2>
+        <h2 className="text-3xl font-bold text-blue-600 ">Daftar Siswa</h2>
         <Link to="/tambah" className="bg-blue-600 p-3 rounded-2xl text-white font-bold hover:bg-blue-700 transition duration-300 flex items-center gap-2">
           <FaPlus /> Tambah Siswa
         </Link>
